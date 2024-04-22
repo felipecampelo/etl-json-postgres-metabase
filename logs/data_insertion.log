@@ -1,0 +1,80 @@
+[2024-04-21 17:49:59.221981] Erro ao tentar enviar dados para o banco Postgres: No module named 'psycopg2'
+[2024-04-21 17:50:03.857523] Erro ao tentar enviar dados para o banco Postgres: No module named 'psycopg2'
+[2024-04-21 17:50:33.305255] Erro ao tentar enviar dados para o banco Postgres: No module named 'psycopg2'
+[2024-04-21 17:51:46.387045] Erro ao tentar enviar dados para o banco Postgres: No module named 'psycopg2'
+[2024-04-21 17:51:58.634524] Erro ao tentar enviar dados para o banco Postgres: No module named 'psycopg2'
+[2024-04-21 17:52:21.960070] Quantidade de linhas removidas por deduplicação: -1
+[2024-04-21 17:52:21.966343] Erro ao tentar enviar dados para o banco Postgres: No module named 'psycopg2'
+[2024-04-21 17:52:56.952307] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 17:52:56.958700] Erro ao tentar enviar dados para o banco Postgres: No module named 'psycopg2'
+[2024-04-21 17:54:36.957641] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 17:55:37.123618] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 18:01:41.109787] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 18:02:47.520013] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 18:08:37.131571] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 18:08:37.173584] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 18:09:30.756504] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 18:09:33.253331] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 18:26:40.256708] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 18:26:40.327013] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 18:28:16.045246] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 18:28:16.093322] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:14:37.530044] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:14:37.578153] Erro ao tentar enviar dados para o banco Postgres: subject table for an INSERT, UPDATE or DELETE expected, got 'pessoas'.
+[2024-04-21 19:15:31.217532] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:22:57.947535] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:25:12.933668] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:26:54.377008] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:27:00.541901] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:27:00.631708] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:30:29.852804] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:30:29.946998] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:32:12.897035] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:32:12.991691] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:32:44.463034] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:32:44.559974] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:33:44.800582] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:33:44.902141] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:33:55.944316] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:33:56.044336] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:33:58.038323] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:33:58.146656] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:35:37.015447] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:37:45.533392] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:41:03.446771] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:41:31.838534] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:42:54.803125] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:45:12.241673] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:45:12.393071] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:46:26.192980] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:46:26.342275] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:46:39.153951] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:46:39.297372] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:47:15.652878] Quantidade de linhas removidas por deduplicação: 1
+[2024-04-21 19:47:15.793993] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:53:58.870888] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 19:53:58.871522] Erro ao tentar enviar dados para o banco Postgres: invalid literal for int() with base 10: 'None'
+[2024-04-21 19:54:38.057181] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 19:54:38.057636] Erro ao tentar enviar dados para o banco Postgres: invalid literal for int() with base 10: 'None'
+[2024-04-21 19:55:26.546884] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 19:55:26.547298] Erro ao tentar enviar dados para o banco Postgres: invalid literal for int() with base 10: 'None'
+[2024-04-21 19:56:10.974103] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 19:57:30.646142] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:57:47.037133] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 19:57:47.096083] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 19:59:31.106333] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 19:59:31.166157] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 20:00:22.358924] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 20:00:22.416366] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 20:00:29.557320] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 20:00:29.636100] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 20:00:46.048163] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 20:00:46.106545] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 20:01:24.307655] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 20:01:33.592104] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 20:02:47.838274] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 20:02:47.905490] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 23:00:55.446044] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 23:00:55.503509] Dados enviados para o banco Postgres com sucesso!
+[2024-04-21 23:05:00.267525] Quantidade de registros duplicados e removidos do JSON: 1
+[2024-04-21 23:05:00.333534] Dados enviados para o banco Postgres com sucesso!

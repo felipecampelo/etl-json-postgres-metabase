@@ -1,0 +1,212 @@
+[
+    {
+      "id": 1,
+      "nome": "João da Silva",
+      "idade": 35,
+      "email": "joao.silva@example.com",
+      "telefone": "(00) 12345-6789",
+      "endereco": {
+        "logradouro": "Rua das Flores",
+        "numero": 123,
+        "bairro": "Centro",
+        "cidade": "Cidade Fictícia",
+        "estado": "PB",
+        "cep": "12345-678"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "idade": 28,
+      "email": "maria.oliveira@example.com",
+      "telefone": "(00) 98765-4321",
+      "endereco": {
+        "logradouro": "Avenida dos Sonhos",
+        "numero": 456,
+        "bairro": "Bairro Novo",
+        "cidade": "Outra Cidade",
+        "estado": "PE",
+        "cep": "54321-098"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "José Pereira",
+      "idade": 45,
+      "email": "jose.pereira@example.com",
+      "telefone": "(00) 54321-9876",
+      "endereco": {
+        "logradouro": "Praça da Liberdade",
+        "numero": 789,
+        "bairro": "Bairro Antigo",
+        "cidade": "Cidade Histórica",
+        "estado": "PA",
+        "cep": "98765-432"
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Ana Santos",
+      "idade": 30,
+      "email": "ana.santos@example.com",
+      "telefone": "(00) 13579-2468",
+      "endereco": {
+        "logradouro": "Alameda das Palmeiras",
+        "numero": 246,
+        "bairro": "Bairro das Palmeiras",
+        "cidade": "Cidade Tropical",
+        "estado": "PE",
+        "cep": "13579-246"
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Carlos Costa",
+      "idade": 40,
+      "email": "carlos.costa@example.com",
+      "telefone": "(00) 98765-4321",
+      "endereco": {
+        "logradouro": "Rua dos Girassóis",
+        "numero": 789,
+        "bairro": "Bairro do Sol",
+        "cidade": "Cidade do Verão",
+        "estado": "PE",
+        "cep": "98765-432"
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Mariana Lima",
+      "idade": 25,
+      "email": "mariana.lima@example.com",
+      "telefone": "(00) 24680-1357",
+      "endereco": {
+        "logradouro": "Avenida das Árvores",
+        "numero": 357,
+        "bairro": "Bairro Verde",
+        "cidade": "Cidade Ecológica",
+        "estado": "PE",
+        "cep": "24680-135"
+      }
+    },
+    {
+      "id": 7,
+      "nome": "Fernando Almeida",
+      "idade": 38,
+      "email": "fernando.almeida@example.com",
+      "telefone": "(00) 36912-1478",
+      "endereco": {
+        "logradouro": "Praça Central",
+        "numero": 159,
+        "bairro": "Centro",
+        "cidade": "Cidade Grande",
+        "estado": "PB",
+        "cep": "36912-147"
+      }
+    },
+    {
+      "id": 8,
+      "nome": "Amanda Ferreira",
+      "idade": 32,
+      "email": "amanda.ferreira@example.com",
+      "telefone": "(00) 25874-3691",
+      "endereco": {
+        "logradouro": "Rua das Pedras",
+        "numero": 753,
+        "bairro": "Bairro das Pedras",
+        "cidade": "Cidade de Pedra",
+        "estado": "PB",
+        "cep": "25874-369"
+      }
+    },
+    {
+      "id": 9,
+      "nome": "Rafaela Gomes",
+      "idade": 29,
+      "email": "rafaela.gomes@example.com",
+      "telefone": "(00) 74185-2963",
+      "endereco": {
+        "logradouro": "Alameda das Acácias",
+        "numero": 963,
+        "bairro": "Bairro Florido",
+        "cidade": "Cidade das Flores",
+        "estado": "RN",
+        "cep": "74185-296"
+      }
+    },
+    {
+      "id": 10,
+      "nome": "Lucas Castro",
+      "idade": 33,
+      "email": "lucas.castro@example.com",
+      "telefone": "(00) 12345-9876",
+      "endereco": {
+        "logradouro": "Avenida das Estrelas",
+        "numero": 159,
+        "bairro": "Bairro Estrelado",
+        "cidade": "Cidade do Céu",
+        "estado": "SP",
+        "cep": "12345-987"
+      }
+    },
+    {
+      "id": 11,
+      "nome": "Isabela Martins",
+      "idade": 27,
+      "email": "isabela.martins@example.com",
+      "telefone": "(00) 98765-4321",
+      "endereco": {
+        "logradouro": "Rua das Rosas",
+        "numero": 852,
+        "bairro": "Bairro das Flores",
+        "cidade": "Cidade das Rosas",
+        "estado": "SP",
+        "cep": "98765-432"
+      }
+    },
+    {
+      "id": 12,
+      "nome": "Gabriel Santos",
+      "idade": 36,
+      "email": "gabriel.santos@example.com",
+      "telefone": "(00) 45678-9012",
+      "endereco": {
+        "logradouro": "Alameda das Violetas",
+        "numero": 753,
+        "bairro": "Bairro das Cores",
+        "cidade": "Cidade Colorida",
+        "estado": "PE",
+        "cep": "45678-901"
+      }
+    },
+    {
+        "id": 12,
+        "nome": "Gabriel Santos",
+        "idade": 36,
+        "email": "gabriel.santos@example.com",
+        "telefone": "(00) 45678-9012",
+        "endereco": {
+          "logradouro": "Alameda das Violetas",
+          "numero": 753,
+          "bairro": "Bairro das Cores",
+          "cidade": "Cidade Colorida",
+          "estado": "PE",
+          "cep": "45678-901"
+        }
+    },
+    {
+        "id": 20,
+        "nome": "Gabriel Santos",
+        "idade": 36,
+        "email": "gabriel.santos@example.com",
+        "telefone": "(00) 45678-9012",
+        "endereco": {
+          "logradouro": "Alameda das Violetas",
+          "numero": 753,
+          "bairro": "Bairro das Cores",
+          "cidade": "Cidade Colorida",
+          "estado": "PE",
+          "cep": "45678-901"
+        }
+    }
+  ]
