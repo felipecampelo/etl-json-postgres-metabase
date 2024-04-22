@@ -23,6 +23,8 @@ def save_log(log):
 
 
 def data_handling(data):
+    # Para o tratamento dos dados de entrada, foi optado por usar o pandas para remoção de registros duplicados.
+    # Com o json_normalize, cada chave do dicionário na coluna "endereco" se torna uma coluna diferente, no formato endereco_[chave].
     df = pd.json_normalize(data, sep='_')
 
     num_rows_before = len(df)
@@ -34,7 +36,7 @@ def data_handling(data):
         log = f'Quantidade de registros duplicados e removidos do JSON: {dif}'
         save_log(log)
 
-    # Add more transfomations here...
+    # Mais transformações aqui...
 
     return df
 
@@ -48,11 +50,11 @@ def data_extraction(file_path):
 
 def send_to_postgres(df, table_name):
     try:
-        # Creating connection with database
+        # Criando conexão com o Postgres
         engine = create_engine(f"postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}")
         upsert_data = df.to_dict(orient='records')
 
-        # Create table if not exists
+        # Criando a tabela se não existir
         with engine.connect() as connection:
             connection.execute(f'''
                 CREATE TABLE IF NOT EXISTS {table_name} (
@@ -70,12 +72,14 @@ def send_to_postgres(df, table_name):
                 )
             ''')
 
+            # Checando se a constraint de primary key já existe
             existing_constraints = engine.execute(f"""
                 SELECT constraint_name
                 FROM information_schema.table_constraints
                 WHERE table_name='{table_name}' AND constraint_name='pk_{table_name}_id'
             """).fetchall()
 
+            # Caso não existir, criar
             if not existing_constraints:
                 connection.execute(f'''
                     ALTER TABLE {table_name}
@@ -85,7 +89,7 @@ def send_to_postgres(df, table_name):
             metadata = MetaData(bind=engine)
             table = Table(table_name, metadata, autoload=True, autoload_with=engine)
 
-            # Sending data to Postgres
+            # Enviando os dados para o Postgres (modo de upsert --> sem duplicação dos dados)
             for data in upsert_data:
                 stmt = insert(table).values(data)
                 stmt = stmt.on_conflict_do_update(

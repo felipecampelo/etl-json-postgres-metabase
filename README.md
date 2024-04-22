@@ -64,6 +64,8 @@ docker pull metabase/metabase:latest
 docker run -d -p 3000:3000 --name metabase  --network my-network metabase/metabase
 ```
 
+É importante observar que utilizamos o mesmo network para ambos os containers. Isso é necessário para a comunicação e o compartilhamento dos dados entre ambos.
+
 Nesse momento, faz-se necessário a configuração do Metabase para conexão com o banco postgres. Para o host, basta colocar o nome que demos ao container, ou seja, `postgres`.
 
 #### Passo 4: ETL dos dados
