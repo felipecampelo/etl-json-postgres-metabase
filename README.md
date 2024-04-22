@@ -11,7 +11,7 @@ O propósito do projeto é fazer uma inserção dos dados de arquivos JSON em um
 
 ### Passo a passo de execução
 
-##### Passo 1: Preenchimento do .env.example com os valores das variáveis de ambiente
+#### Passo 1: Preenchimento do .env.example com os valores das variáveis de ambiente
 
 Nesse momento, é necessário alterar os valores de configuração do banco Postgres. 
 
@@ -29,7 +29,7 @@ Depois de atualizado, execute o arquivo da seguinte forma:
 source .env.example
 ```
 
-##### Passo 2: Criação do ambiente Python e instalação das bibliotecas necessárias
+#### Passo 2: Criação do ambiente Python e instalação das bibliotecas necessárias
 
 ```sh
 # Criação da env
@@ -42,7 +42,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-##### Passo 3: Setup do banco Postgres com Docker
+#### Passo 3: Setup do banco Postgres com Docker
 
 ```sh
 # Pull da imagem postgres do Docker Hub
@@ -66,7 +66,7 @@ docker run -d -p 3000:3000 --name metabase  --network my-network metabase/metaba
 
 Nesse momento, faz-se necessário a configuração do Metabase para conexão com o banco postgres. Para o host, basta colocar o nome que demos ao container, ou seja, `postgres`.
 
-##### Passo 4: ETL dos dados
+#### Passo 4: ETL dos dados
 
 Basta executar o arquivo `data_load.py` que os dados do arquivo JSON na pasta `data` serão enviados ao banco Postgres.
 
