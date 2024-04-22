@@ -51,7 +51,7 @@ docker pull postgres
 # Criação do network
 docker network create my-network
 
-# Criação do volume para persistência dos dados
+# Criação do volume para persistência dos dados no Postgres
 docker volume create pgdata
 
 # Criação do container com o Postgres
@@ -60,8 +60,11 @@ docker run -d --name postgres --network my-network -p 5432:5432 -e POSTGRES_PASS
 # Pull da imagem do Metabase do Docker Hub
 docker pull metabase/metabase:latest
 
+# Criação do volume para persistência dos dados no Metabase
+docker volume create metabase-data
+
 # Criação do container com o Metabase na mesma network que o Postgres
-docker run -d -p 3000:3000 --name metabase  --network my-network metabase/metabase
+docker run -d -p 3000:3000 --name metabase --network my-network -v metabase-data:/metabase-data -e "MB_DB_FILE=/metabase-data/metabase.db" metabase/metabase
 ```
 
 É importante observar que utilizamos o mesmo network para ambos os containers. Isso é necessário para a comunicação e o compartilhamento dos dados entre ambos.
